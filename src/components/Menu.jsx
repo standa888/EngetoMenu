@@ -21,9 +21,9 @@ const Menu = () => {
                 <img src={Logo} alt="logo" />
             </div>
 
-            <nav>
-                <ul id="menu" className={`max-sm:absolute max-sm:top-28 max-sm:w-full max-sm:items-center
-             max-sm:flex-col max-sm:pb-8 max-sm:gap-2 bg-[#15304c] gap-4 mr-12 flex ${mobile ? "max-sm:flex" : "max-sm:hidden"}`}>
+            <nav className="max-sm:absolute max-sm:top-28 max-sm:w-full bg-[#15304c]">
+                <ul className={` text-center max-sm:pb-8 max-sm:flex-col
+                 max-sm:gap-4 bg-[#15304c] gap-4 sm:mr-12 sm:flex ${mobile ? "max-sm:flex" : "max-sm:hidden"}`}>
                     <li><a href="#">Domů</a></li>
                     <li><a href="#">O nás</a></li>
                     <li><a href="#">Kontakt</a></li>
